@@ -1,9 +1,5 @@
-Set-Location 'C:\Windows\System32'
-
-Get-Module -ListAvailable -FullyQualifiedName xWindows
-
 configuration 'xWindowsAuditTests' {
-    #Import-DscResource -ModuleName xWindows
+    Import-DscResource -ModuleName xWindows
     node 'localhost' {
         xWindowsAudit 'Test1' { #Test setting both to true
             AuditSubCategory = 'IPsec Main Mode'
