@@ -1,3 +1,5 @@
+Get-Module -ListAvailable -FullyQualifiedName xWindows
+
 configuration 'xWindowsAuditTests' {
     Import-DscResource -ModuleName xWindows
     node 'localhost' {
