@@ -1,3 +1,5 @@
+Set-Location 'C:\Windows\System32'
+
 Get-Module -ListAvailable -FullyQualifiedName xWindows
 
 configuration 'xWindowsAuditTests' {
