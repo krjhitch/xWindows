@@ -1,2 +1,2 @@
-Copy-Item -Path * -Destination 'C:\Program Files\WindowsPowerShell\Modules\xWindows' -Recurse -Verbose
+Copy-Item -Path '.\' -Destination 'C:\Program Files\WindowsPowerShell\Modules' -Recurse -Verbose -whatif
 Import-Module xWindows -Verbose
