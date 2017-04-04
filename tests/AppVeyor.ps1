@@ -5,3 +5,6 @@ Get-Module -ListAvailable -FullyQualifiedName xWindows -Verbose
 
 dir 'C:\Program Files\WindowsPowerShell\Modules'
 dir 'C:\Program Files\WindowsPowerShell\Modules\xWindows'
+
+Write-Host 'PSModulePaths'
+$env:PSModulePath -split ';'
