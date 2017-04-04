@@ -2,3 +2,6 @@ Copy-Item -Path '.' -Destination 'C:\Program Files\WindowsPowerShell\Modules\xWi
 #Import-Module .\xWindows -Verbose
 Get-DSCResource -Module xWindows
 Get-Module -ListAvailable -FullyQualifiedName xWindows -Verbose
+
+dir 'C:\Program Files\WindowsPowerShell\Modules'
+dir 'C:\Program Files\WindowsPowerShell\Modules\xWindows'
