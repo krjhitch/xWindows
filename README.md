@@ -1,7 +1,7 @@
 # xWindowsUserRights Example
 ```powershell
 configuration 'UserPrivs' {
-    Import-Module -Name xWindows
+    Import-Module -ModuleName xWindows
 
     node 'localhost' {
         xWindowsUserRights 'DebugRights' {
